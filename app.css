@@ -1,0 +1,87 @@
+@media (max-width: 740px) {
+	.my-slide{
+		padding-top: none
+		}  	
+}
+html {
+	background-color: white;
+}
+.navigation {
+	background-color: black !important;
+	width: 100%;
+	margin: 0px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+.navigation-small {
+	background-color:black !important;
+	width: 100%;
+	margin: 0px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+.btn-nav-login {
+	background:white !important;
+	color:black;
+	text-decoration-style: solid;
+	border-radius: 50px;
+	margin-right:10px;	
+}
+.btn-nav-login:hover{
+	background-color: yellow;
+}
+.btn-nav-register {
+	background:red !important;
+	color:white;
+	text-decoration-style: solid;
+	border-radius: 50px;
+}
+.btn-bg-none {
+	background: none !important;
+	color: white;
+}
+.content {
+	max-width: 1100px;
+	margin: auto;
+}
+.top-p-image{
+	border-radius: 20px;
+	padding: 5px
+}
+
+
+.uk-fixed-navigation {
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 0;
+	z-index: 1030;
+}
+.my-card-title{
+margin: -20px
+}
+.my-card-text{
+	margin-bottom: -20px
+}
+.my-card-text-blog{
+	font-size: 0.8em
+}
+.my-card{
+	border-radius: 20px;
+}
+.my-card-blog{
+	border-radius: 0px  20px 20px 0px;
+}
+.city{
+	background: whitesmoke;
+	padding-bottom: 50px;
+}
+.city-text-s{
+	font-size: 0.7em
+}
+
+
+
+.footer {
+	background-color:none;
+}

@@ -1,0 +1,81 @@
+body {
+	background-color: whitesmoke;
+}
+ul {
+	list-style-type: none;
+}
+a:link {
+	color: black;
+	text-decoration: none;
+}
+a:visited {
+	color: black;
+	background-color: whitesmoke;
+}
+a:active {
+	color: blue;
+	background-color: whitesmoke;
+}
+.dashboard-nav {
+	font-size: 0.7em;
+	padding-left: 20px;
+}
+.dashboard-tips {
+	font-size: 0.9em;
+	padding-left: 20px;
+}
+.dashboard-link {
+	padding-left: 20px;
+}
+.dashboard-main {
+	width: 70%;
+	margin-top: 8%;
+}
+.dashboard-main2 {
+	width: 50%;
+}
+.tab-button {
+	font-size: 0.7em;
+	background-color: red;
+	color: white;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+.my-button-padding{
+	padding:2px;
+}
+/* .formatForButton{
+    background-color:#adf802; 
+} */
+span{
+    display:none;
+}
+
+@media (max-width: 740px) {
+	.dashboard-main {
+		width: 100%;
+		margin-top: 25%;
+	}
+	.dashboard-main2 {
+		width: 100%;
+	}
+	.my-margin {
+		margin-top: 2%;
+	}
+	.my-container {
+		padding-left: 30px !important;
+    }
+    .tab-button {
+        font-size: 0.7em;
+        background-color:red;
+        color: white;
+        text-transform: capitalize;
+        font-weight: bold;
+        padding:10px;
+        margin:-10px
+
+	}
+	.my-button-padding-small{
+		padding-left: 30px;
+	}
+}
