@@ -84,9 +84,9 @@
 
         <!-----nav links for desktop start here----->
         <div class="uk-width-1-4@m uk-width-1-1@s uk-visible@s">
-            <div class="uk-container uk-margin uk-padding-remove" style="margin-top:35%">
-                <div class="uk-card uk-card-default uk-card-body uk-padding-remove " uk-sticky="top: 50"
-                    style="padding-bottom: 10%">
+            <div class="uk-container uk-margin uk-padding-remove" style="margin-top:30%">
+                <div class="uk-card uk-card-default uk-card-body uk-padding-remove "  uk-sticky="offset: 80"
+                    >
                     <a href="">
                         <div class="uk-text-center" style="padding-top: 10%">
                             <img src="images/pic.jpg" class="uk-border-circle" width="100" height="100"
@@ -116,10 +116,6 @@
                                     style="color:#adf802; font-size: 18px;"></i><b class="dashboard-link">Post Ads
                                     </b></a></li>
                         <hr>
-                        <li class="  dashboard-nav"><a href=""><i class="mdi  mdi-cog"
-                                    style="color:#adf802; font-size: 18px;"></i><b
-                                    class="dashboard-link">Settings</b></a></li>
-                        <hr>
                         <li class="  dashboard-nav"><a href=""><i class="mdi  mdi-power-settings"
                                     style="color:#adf802; font-size: 18px;"></i><b class="dashboard-link">Log
                                     Out</b></a></li>
@@ -136,27 +132,52 @@
                     <h5 class="uk-padding-small"><b style="color: #87ceeb">My Ads</b></h5>
                     <hr>
                     <!---tab button start here---->
-                    <div class="uk-padding-small uk-flex uk-flex-around ">
-                        <button class="uk-button uk-button-small tab-button formatForButton " id="all_ads"
-                            onclick="tabButton()">All <b class="uk-visible@s">(20)</b> </button>
-                        <button class="uk-button uk-button-small tab-button formatForButton" id="published_ads"
-                            onclick="tabButton1()">Published <b class="uk-visible@s">(08)</b></button>
-                        <button class="uk-button uk-button-small tab-button formatForButton" id="featured_ads"
-                            onclick="tabButton()">Featured <b class="uk-visible@s">(05)</b></button>
-                        <button class="uk-button uk-button-small tab-button formatForButton" id="sold_ads"
-                            onclick="tabButton()">Sold <b class="uk-visible@s">(03)</b></button>
-                        <button class="uk-button uk-button-small tab-button formatForButton" id="active_ads"
-                            style="background-color: #adf802" onclick="tabButton()">Active <b
-                                class="uk-visible@s">(03)</b></button>
-                        <button class="uk-button uk-button-small tab-button formatForButton" id="expired_ads"
-                            onclick="tabButton()">Expired <b class="uk-visible@s">(01)</b></button>
-                    </div>
-                    <div class="uk-visible@s">
-                        <hr>
-                    </div>
-
-                    <!---tab button end here---->
-
+                    <div uk-grid class="uk-text-center uk-padding">
+                            <div class=" uk-width-1-4">
+                                <button class="uk-button uk-button-small tab-button formatForButton  uk-padding-small "
+                                    id="all_ads" onclick="tabButton()">All <b class="uk-visible@s">(20)</b> </button>
+                            </div>
+                            <div class=" uk-width-1-4">
+                                <button class="uk-button uk-button-small tab-button formatForButton  uk-padding-small "
+                                style="background-color: #adf802" id="all_ads" onclick="tabButton()">pending <b class="uk-visible@s">(20)</b> </button>
+                            </div>
+                            <div class=" uk-width-1-4">
+                                <button class="uk-button uk-button-small tab-button formatForButton  uk-padding-small "
+                                    id="all_ads" onclick="tabButton()">Active <b class="uk-visible@s">(20)</b> </button>
+                            </div>
+                            <div class=" uk-width-1-4">
+                                <button class="uk-button uk-button-small tab-button formatForButton  uk-padding-small "
+                                    id="all_ads" onclick="tabButton()">Expired <b class="uk-visible@s">(20)</b> </button>
+                            </div>
+                        </div>
+                        <div class="uk-visible@s my-line">
+                            <hr>
+                        </div>
+                        <div uk-grid class="uk-text-center uk-padding">
+                            <div class=" uk-width-1-4">
+                                <button class="uk-button uk-button-small tab-button formatForButton  uk-padding-small "
+                                    id="all_ads" onclick="tabButton()">Featuerd <b class="uk-visible@s">(20)</b> </button>
+                            </div>
+                            <div class=" uk-width-1-4">
+                                <button class="uk-button uk-button-small tab-button formatForButton  uk-padding-small "
+                                style="background-color: #adf802"  id="all_ads" onclick="tabButton()">Distress <b class="uk-visible@s">(20)</b> </button>
+                            </div>
+                            <div class=" uk-width-1-4">
+                                <button class="uk-button uk-button-small tab-button formatForButton  uk-padding-small "
+                                    id="all_ads" onclick="tabButton()">Free <b class="uk-visible@s">(20)</b> </button>
+                            </div>
+                            <div class=" uk-width-1-4">
+                                <button class="uk-button uk-button-small tab-button formatForButton  uk-padding-small  "
+                                    id="all_ads" onclick="tabButton()">All <b class="uk-visible@s">(20)</b> </button>
+                            </div>
+    
+                        </div>
+    
+                        <div class="uk-visible@s my-line">
+                            <hr>
+                        </div>
+    
+                        <!---tab button end here---->
                     <!-----table start here-------->
 
                     <table class="uk-table uk-table-hover uk-table-responsive uk-table-divider">
@@ -197,22 +218,16 @@
                                 <td>$ 53</td>
                                 <td>published</td>
                                 <td>
-                                    <div uk-grid>
-                                        <div
-                                            class="uk-width-1-3@m uk-width-1-2@s my-button-padding my-button-padding-small">
+                                    <div >
+                                       
                                             <div class="uk-button uk-button-small " uk-tooltip="Edit"
                                                 style="background: #adf802"><i class="mdi  mdi-lead-pencil"
-                                                    style="color:white; font-size: 15px;"></i></div>
-                                        </div>
-
-                                        <div
-                                            class="uk-width-1-3@m uk-width-1-2@s my-button-padding my-button-padding-small">
+                                                    style="color:white; font-size: 20px;"></i></div>
+                                       
                                             <div class="uk-button uk-button-small" uk-tooltip="Delete"
                                                 style="background: red"><i class="mdi  mdi-delete-circle"
                                                     style="color:white; font-size: 20px;"></i></div>
-                                        </div>
-                                        <div
-                                            class="uk-width-1-3@m uk-width-1-2@s my-button-padding my-button-padding-small">
+                                       
                                             <div class="uk-button uk-button-small" uk-tooltip="View"
                                                 style="background:#87ceeb"><i class="mdi  mdi-eye"
                                                     style="color:white; font-size: 20px;"></i></div>
@@ -223,11 +238,7 @@
 
                             </tr>
                             <tr>
-                                <td>No Data Yet</td>
-                                <td>No Data Yet</td>
-                                <td>No Data Yet</td>
-                                <td>No Data Yet</td>
-                                <td>No Data Yet</td>
+                                <td colspan="5" class="uk-text-center">No Data Yet</td>
                             </tr>
                         </tbody>
                     </table>

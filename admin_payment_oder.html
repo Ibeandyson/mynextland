@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Payment Oders</title>
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="admin.css" />
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.0.45/css/materialdesignicons.min.css" />
+</head>
+
+<body>
+
+    <!----navbar start here ---->
+    <nav class="uk-navbar-container  navigation uk-fixed-navigation uk-visible@s" uk-navbar>
+        <div class="uk-navbar-let">
+            <a class="uk-navbar-item uk-logo" href="#"><img src="images/logo.png" style="height: 100px; "></a>
+        </div>
+
+        <div class="uk-navbar-left uk-visible@s">
+            <ul class="uk-navbar-nav">
+
+            </ul>
+        </div>
+
+        <div class="uk-navbar-right uk-visible@s">
+            <ul class="uk-navbar-nav">
+                <li>
+                    <button class="uk-button btn-bg-none" style="color:white;  font-weight: bold;">Home</button>
+                </li>
+                <li>
+                    <button class="uk-button btn-bg-none" style="color:white;  font-weight: bold;">Pricing</button>
+                </li>
+                <li>
+                    <button class="uk-button btn-bg-none" style="color:white;  font-weight: bold;">About US</button>
+                </li>
+                <li>
+                    <button class="uk-button btn-bg-none" style="color:white;  font-weight: bold;">Contact Us</button>
+                </li>
+                <li>
+                    <button class="uk-button btn-bg-none" style="color:white;  font-weight: bold;">Blog</button>
+                </li>
+                <li>
+                    <button class="uk-button btn-nav-register"><i class="mdi  mdi-telegram"
+                            style="color:white; margin-right: 10px; font-size: 20px;"></i>Post Ads</button>
+                </li>
+            </ul>
+        </div>
+        <div class="uk-navbar-right uk-visible@s">
+            <ul class="uk-navbar-nav">
+
+            </ul>
+        </div>
+
+    </nav>
+    <!----navbar ends here ---->
+
+    <!---------offcanva for desktop end here----------->
+
+    <!----navbar for mobile start here ---->
+    <nav class="uk-navbar-container  uk-fixed-navigation navigation-small uk-hidden@s" uk-navbar>
+        <div class="uk-navbar-let">
+            <a class="uk-navbar-item uk-logo" href="#"><img src="images/logo.png" style="height: 100px;  "></a>
+        </div>
+
+        <div class="uk-navbar-right ">
+            <ul class="uk-navbar-nav">
+                <li>
+                    <div class="uk-navbar-toggle " uk-toggle="target: #offcanvas-push">
+                        <i class="mdi  mdi-backburger" style="color:white; font-size: 40px;"></i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!----navbar for mobile ends here ---->
+
+    <!-----dashboard start here----->
+
+    <div uk-grid>
+
+        <!-----nav links for desktop start here----->
+        <div class="uk-width-1-4@m uk-width-1-1@s uk-visible@s">
+            <div class="uk-container uk-margin uk-padding-remove" style="margin-top:30%">
+                <div class="uk-card uk-card-default uk-card-body uk-padding-remove " uk-sticky="offset: 80">
+                    <a href="">
+                        <div class="uk-text-center" style="padding-top: 10%">
+                            <img src="images/pic.jpg" class="uk-border-circle" width="100" height="100"
+                                alt="avert image">
+                        </div>
+                        <p class="uk-text-center" style="  text-transform: capitalize;"><b>Admin</b></p>
+                    </a>
+                    <hr>
+                    <ul class=" uk-padding-small">
+                        <li class=" dashboard-nav"><a href=""><i class="mdi  mdi-view-dashboard"
+                                    style="color:#adf802; font-size: 18px;"></i><b class="dashboard-link">
+                                    Overview</b></a></li>
+                        <hr>
+                        <li class="  dashboard-nav"><a href=""><i class="mdi  mdi-diamond-stone"
+                                    style="color:#adf802; font-size: 18px;"></i><b class="dashboard-link">Ads
+                                    List</b></a>
+                        </li>
+                        <hr>
+                        <li class=" dashboard-nav"><a href=""><i class="mdi  mdi-account-group"
+                                    style="color:#adf802; font-size: 18px;"></i><b class="dashboard-link">
+                                    All Users</b></a></li>
+                        <hr>
+                        <li class="  dashboard-nav"><a href=""><i class="mdi  mdi-cash"
+                                    style="color:#adf802; font-size: 18px;"></i><b class="dashboard-link">Payment Oders
+                                </b></a></li>
+                        <hr>
+                        <li class=" dashboard-nav"><a href=""><i class="mdi  mdi-cog-outline"
+                                    style="color:#adf802; font-size: 18px;"></i><b class="dashboard-link">
+                                    Settings</b></a></li>
+                        <hr>
+                        <li class="  dashboard-nav"><a href=""><i class="mdi  mdi-power-settings"
+                                    style="color:#adf802; font-size: 18px;"></i><b class="dashboard-link">Log
+                                    Out</b></a></li>
+
+
+                    </ul>
+                </div>
+            </div>
+            <!-----nav links for desktop end here----->
+        </div>
+
+        <!-----dashboard start here----->
+        <div class="uk-width-1-1@m uk-width-1-1@s uk-padding-small dashboard-main">
+
+            <!----------------------->
+            <div class="uk-container uk-padding-remove uk-margin my-container">
+                <div class="uk-card uk-card-default uk-card-body uk-padding-remove uk-margin-small uk-border-rounded">
+                    <h5 class="uk-padding-small"><b style="color: #87ceeb">Payment List</b></h5>
+
+                    <div class="uk-visible@s ">
+                        <hr>
+                    </div>
+
+                   
+
+                    <!-----table start here-------->
+
+                    <table class="uk-table uk-table-hover uk-table-responsive uk-table-divider my-table">
+                        <thead>
+                            <tr>
+                                <th><b>ORDER</b></th>
+                                <th><b>ADS</b></th>
+                                <th><b>ITEM</b></th>
+                                <th><b>USER</b></th>
+                                <th><b>PRICE</b></th>
+                                <th><b>DATE</b></th>
+                                <th><b>STATUS</b></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>0345</td>
+                                <td>white building with 5bed rooms</td>
+                                <td>
+                                    <span class="uk-badge"
+                                        style="background-color: red;border-radius:0px">Distressed</span>
+                                    <span class="uk-badge"
+                                        style="background-color:#adf802; border-radius:0px">Featuerd</span>
+                                </td>
+                                <td>Ibe Andyson Andrew</td>
+                                <td>$30000</td>
+                                <td>10/05/2020-7:10PM</td>
+                                <td>
+                                    <span class="uk-badge"
+                                        style="background-color:green;border-radius:0px">Checked</span>
+                                    <span class="uk-badge" style="background-color: red;border-radius:0px">Not
+                                        Checked</span>
+                                </td>
+
+                            </tr>
+
+                            <tr>
+                                <td colspan="7" class="uk-text-center">No Data Yet</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <hr>
+                    <ul class="uk-pagination uk-flex-center uk-padding-small" uk-margin>
+                        <li><a href="#"><span uk-pagination-previous></span></a></li>
+                        <li><a href="#">1</a></li>
+                        <li class="uk-disabled"><span>...</span></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">6</a></li>
+                        <li class="uk-active"><span>7</span></li>
+                        <li><a href="#">8</a></li>
+                        <li><a href="#"><span uk-pagination-next></span></a></li>
+                    </ul>
+                    <!----table end here----------->
+                </div>
+            </div>
+            <!--------------------->
+
+        </div>
+        <!-----dashboard ads start here----->
+
+
+
+    </div>
+
+    <!-----userdashboard end here----->
+
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+
+    <!-----my javascript---->
+    <script>
+        function tabButton() {
+            document.getElementById().className = 'formatForButton';
+        }
+        function tabButton1() {
+            document.getElementById().className = 'formatForButton';
+        }
+    </script>
+</body>
+
+</html>

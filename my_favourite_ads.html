@@ -84,9 +84,8 @@
 
         <!-----nav links for desktop start here----->
         <div class="uk-width-1-4@m uk-width-1-1@s uk-visible@s">
-            <div class="uk-container uk-margin uk-padding-remove" style="margin-top:35%">
-                <div class="uk-card uk-card-default uk-card-body uk-padding-remove " uk-sticky="top: 50"
-                    style="padding-bottom: 10%">
+            <div class="uk-container uk-margin uk-padding-remove " style="margin-top:30%;">
+                <div class="uk-card uk-card-default uk-card-body uk-padding-remove " uk-sticky="offset: 80">
                     <a href="">
                         <div class="uk-text-center" style="padding-top: 10%">
                             <img src="images/pic.jpg" class="uk-border-circle" width="100" height="100"
@@ -114,11 +113,7 @@
                         <hr>
                         <li class="  dashboard-nav"><a href=""><i class="mdi  mdi-telegram"
                                     style="color:#adf802; font-size: 18px;"></i><b class="dashboard-link">Post ADS
-                                    </b></a></li>
-                        <hr>
-                        <li class="  dashboard-nav"><a href=""><i class="mdi  mdi-cog"
-                                    style="color:#adf802; font-size: 18px;"></i><b
-                                    class="dashboard-link">Settings</b></a></li>
+                                </b></a></li>
                         <hr>
                         <li class="  dashboard-nav"><a href=""><i class="mdi  mdi-power-settings"
                                     style="color:#adf802; font-size: 18px;"></i><b class="dashboard-link">Log
@@ -134,7 +129,9 @@
             <div class="uk-container uk-padding-remove uk-margin my-container">
                 <div class="uk-card uk-card-default uk-card-body uk-padding-remove uk-margin-small uk-border-rounded">
                     <h5 class="uk-padding-small"><b style="color: #87ceeb">My Favourite Ads</b></h5>
-                    <hr>
+                    <div class="uk-visible@s ">
+                            <hr>
+                        </div>
                     <!-----table start here-------->
 
                     <table class="uk-table uk-table-hover uk-table-responsive uk-table-divider">
@@ -175,31 +172,21 @@
                                 <td>$ 53</td>
                                 <td>published</td>
                                 <td>
-                                    <div uk-grid>
-                                        <div
-                                            class="uk-width-1-3@m uk-width-1-2@s my-button-padding my-button-padding-small">
-                                            <div class="uk-button uk-button-small " uk-tooltip="Buy"
-                                                style="background: #adf802"><i class="mdi  mdi-cart"
-                                                    style="color:white; font-size: 15px;"></i></div>
-                                        </div>
+                                    <div>
+                                        <div class="uk-button uk-button-small " uk-tooltip="View"
+                                            style="background: #87ceeb"><i class="mdi  mdi-eye"
+                                                style="color:white; font-size: 15px;"></i></div>
 
-                                        <div
-                                            class="uk-width-1-3@m uk-width-1-2@s my-button-padding my-button-padding-small">
-                                            <div class="uk-button uk-button-small" uk-tooltip="Delete"
-                                                style="background: red"><i class="mdi  mdi-delete-circle"
-                                                    style="color:white; font-size: 15px;"></i></div>
+                                        <div class="uk-button uk-button-small" uk-tooltip="Delete"
+                                            style="background: red"><i class="mdi  mdi-heart-off"
+                                                style="color:white; font-size: 15px;"></i></div>
 
-
-                                        </div>
+                                    </div>
                                 </td>
 
                             </tr>
                             <tr>
-                                <td>No Data Yet</td>
-                                <td>No Data Yet</td>
-                                <td>No Data Yet</td>
-                                <td>No Data Yet</td>
-                                <td>No Data Yet</td>
+                                <td colspan="5" class="uk-text-center">No Data Yet</td>
                             </tr>
                         </tbody>
                     </table>
