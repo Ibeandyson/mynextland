@@ -56,11 +56,11 @@ a:active {
 .my-button-margin{
 	margin-top:5px;
 }
-/* .formatForButton{
-    background-color:#adf802; 
-} */
 span{
     display:none;
+}
+.my-acccordion{
+	color:red;
 }
 
 @media (max-width: 740px) {
