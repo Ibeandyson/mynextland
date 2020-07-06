@@ -13,6 +13,109 @@
 </head>
 
 <body>
+     <!----offcanvas start here---->
+     <div id="offcanvas-push" uk-offcanvas="mode: push; overlay: true">
+            <div class="uk-offcanvas-bar sidenav ">
+    
+                <!-----usefull links ends here---->
+                <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+                    <li class="uk-parent">
+                        <a href="#"><b>Menu</b></a>
+                        <ul class="uk-nav-sub">
+    
+                            <ul>
+                                <li>
+                                    <div class="uk-padding-small">
+                                        <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                                                style="background-color:black;  color:white;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%"><b>HOME</b></button></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-padding-small">
+                                        <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                                                style="background-color:black;  color:white;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%"><b>PRICING</b></button></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-padding-small">
+                                        <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                                                style="background-color:black;   color:white;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%"><b>ABOUT
+                                                    US
+                                                </b></button></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-padding-small">
+                                        <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                                                style="background-color:black;   color:white;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%"><b>CONTACT
+                                                    US
+                                                </b></button></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-padding-small">
+                                        <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                                                style="background-color:black; color:white;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%"><b>Blog
+                                                </b></button></a>
+                                    </div>
+                                </li>
+                            </ul>
+                    </li>
+                </ul>
+                </li>
+    
+                </ul>
+                <div class="uk-padding-remove">
+                    <hr>
+                </div>
+    
+                <!-----usefull links ends here---->
+                <ul class="uk-nav uk-nav-default">
+                    <div class="uk-padding-small">
+                        <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                                style="background-color:black;  color:white;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%"><b>OVERVIEW</b></button></a>
+                    </div>
+                </ul>
+                <ul class="uk-nav uk-nav-default">
+                    <div class="uk-padding-small">
+                        <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                                style="background-color:black;   color:white;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%"><b>ADS LIST
+                                </b></button></a>
+                    </div>
+                </ul>
+                <ul class="uk-nav uk-nav-default">
+                    <div class="uk-padding-small">
+                        <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                                style="background-color:black; color:white;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%"><b>ALL USERS
+                                </b></button></a>
+                    </div>
+                </ul>
+                <ul class="uk-nav uk-nav-default">
+                    <div class="uk-padding-small">
+                        <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                                style="background-color:black; color:white;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%"><b>PAYMENT ODERS
+                                </b></button></a>
+                    </div>
+                </ul>
+    
+                <ul class="uk-nav uk-nav-default">
+                    <div class="uk-padding-small">
+                        <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                                style="background-color:black;color:white;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%"><b>SETTINGS</b></button></a>
+                    </div>
+                </ul>
+               
+                <ul class="uk-nav uk-nav-default">
+                    <div class="uk-padding-small">
+                        <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                                style="background-color:red; color:white;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%"><b>LOG OUT
+                                </b></button></a>
+                    </div>
+                </ul>
+    
+            </div>
+        </div>
+        <!----offcanvas ended here---->
 
     <!----navbar start here ---->
     <nav class="uk-navbar-container  navigation uk-fixed-navigation uk-visible@s" uk-navbar>
@@ -60,23 +163,24 @@
 
     <!---------offcanva for desktop end here----------->
 
-    <!----navbar for mobile start here ---->
-    <nav class="uk-navbar-container  uk-fixed-navigation navigation-small uk-hidden@s" uk-navbar>
-        <div class="uk-navbar-let">
-            <a class="uk-navbar-item uk-logo" href="#"><img src="images/logo.png" style="height: 100px;  "></a>
-        </div>
-
-        <div class="uk-navbar-right ">
-            <ul class="uk-navbar-nav">
-                <li>
-                    <div class="uk-navbar-toggle " uk-toggle="target: #offcanvas-push">
-                        <i class="mdi  mdi-backburger" style="color:white; font-size: 40px;"></i>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <!----navbar for mobile ends here ---->
+     <!----navbar for mobile start here ---->
+     <nav class="uk-navbar-container   navigation-small uk-hidden@s" uk-navbar>
+            <div class="uk-navbar-let">
+                <a class="uk-navbar-item uk-logo" href="#"><img src="images/logo.png" style="height: 100px;  "></a>
+            </div>
+    
+            <div class="uk-navbar-right ">
+                <ul class="uk-navbar-nav">
+                    <li>
+                        <div class="uk-navbar-toggle " uk-toggle="target: #offcanvas-push">
+                            <i class="mdi  mdi-backburger"
+                                style="color:white; font-size: 30px;position: fixed;background-color: black;  z-index: 1; padding-right: 20px"></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!----navbar for mobile ends here ---->
 
     <!-----dashboard start here----->
 

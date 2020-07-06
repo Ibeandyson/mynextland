@@ -13,6 +13,109 @@
 </head>
 
 <body>
+    <!----offcanvas start here---->
+    <div id="offcanvas-push" uk-offcanvas="mode: push; overlay: true">
+        <div class="uk-offcanvas-bar sidenav ">
+
+            <!-----usefull links ends here---->
+            <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+                <li class="uk-parent">
+                    <a href="#"><b>Menu</b></a>
+                    <ul class="uk-nav-sub">
+
+                        <ul>
+                            <li>
+                                <div class="uk-padding-small">
+                                    <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                                            style="background-color:black;  color:white;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%"><b>HOME</b></button></a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-padding-small">
+                                    <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                                            style="background-color:black;  color:white;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%"><b>PRICING</b></button></a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-padding-small">
+                                    <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                                            style="background-color:black;   color:white;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%"><b>ABOUT
+                                                US
+                                            </b></button></a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-padding-small">
+                                    <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                                            style="background-color:black;   color:white;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%"><b>CONTACT
+                                                US
+                                            </b></button></a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-padding-small">
+                                    <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                                            style="background-color:black; color:white;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%"><b>Blog
+                                            </b></button></a>
+                                </div>
+                            </li>
+                        </ul>
+                </li>
+            </ul>
+            </li>
+
+            </ul>
+            <div class="uk-padding-remove">
+                <hr>
+            </div>
+
+            <!-----usefull links ends here---->
+            <ul class="uk-nav uk-nav-default">
+                <div class="uk-padding-small">
+                    <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                            style="background-color:black;  color:white;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%"><b>EDIT PROFILE</b></button></a>
+                </div>
+            </ul>
+            <ul class="uk-nav uk-nav-default">
+                <div class="uk-padding-small">
+                    <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                            style="background-color:black;   color:white;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%"><b>MY ADS
+                            </b></button></a>
+                </div>
+            </ul>
+            <ul class="uk-nav uk-nav-default">
+                <div class="uk-padding-small">
+                    <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                            style="background-color:black; color:white;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%"><b>MY FAVOURITE
+                            </b></button></a>
+                </div>
+            </ul>
+            <ul class="uk-nav uk-nav-default">
+                <div class="uk-padding-small">
+                    <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                            style="background-color:black; color:white;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%"><b>PAYMENT
+                            </b></button></a>
+                </div>
+            </ul>
+
+            <ul class="uk-nav uk-nav-default">
+                <div class="uk-padding-small">
+                    <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                            style="background-color:black;color:white;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%"><b>POST ADS</b></button></a>
+                </div>
+            </ul>
+           
+            <ul class="uk-nav uk-nav-default">
+                <div class="uk-padding-small">
+                    <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                            style="background-color:red; color:white;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%"><b>LOG OUT
+                            </b></button></a>
+                </div>
+            </ul>
+
+        </div>
+    </div>
+    <!----offcanvas ended here---->
 
     <!----navbar start here ---->
     <nav class="uk-navbar-container  navigation uk-fixed-navigation uk-visible@s" uk-navbar>
@@ -61,7 +164,7 @@
     <!---------offcanva for desktop end here----------->
 
     <!----navbar for mobile start here ---->
-    <nav class="uk-navbar-container  uk-fixed-navigation navigation-small uk-hidden@s" uk-navbar>
+    <nav class="uk-navbar-container   navigation-small uk-hidden@s" uk-navbar>
         <div class="uk-navbar-let">
             <a class="uk-navbar-item uk-logo" href="#"><img src="images/logo.png" style="height: 100px;  "></a>
         </div>
@@ -70,7 +173,8 @@
             <ul class="uk-navbar-nav">
                 <li>
                     <div class="uk-navbar-toggle " uk-toggle="target: #offcanvas-push">
-                        <i class="mdi  mdi-backburger" style="color:white; font-size: 40px;"></i>
+                        <i class="mdi  mdi-backburger"
+                            style="color:white; font-size: 30px;position: fixed;background-color: black;  z-index: 1; padding-right: 20px"></i>
                     </div>
                 </li>
             </ul>
@@ -85,8 +189,7 @@
         <!-----nav links for desktop start here----->
         <div class="uk-width-1-4@m uk-width-1-1@s uk-visible@s">
             <div class="uk-container uk-margin uk-padding-remove" style="margin-top:30%">
-                <div class="uk-card uk-card-default uk-card-body uk-padding-remove "  uk-sticky="offset: 80"
-                    >
+                <div class="uk-card uk-card-default uk-card-body uk-padding-remove " uk-sticky="offset: 80">
                     <a href="">
                         <div class="uk-text-center" style="padding-top: 10%">
                             <img src="images/pic.jpg" class="uk-border-circle" width="100" height="100"
@@ -114,7 +217,7 @@
                         <hr>
                         <li class="  dashboard-nav"><a href=""><i class="mdi  mdi-telegram"
                                     style="color:#adf802; font-size: 18px;"></i><b class="dashboard-link">Post Ads
-                                    </b></a></li>
+                                </b></a></li>
                         <hr>
                         <li class="  dashboard-nav"><a href=""><i class="mdi  mdi-power-settings"
                                     style="color:#adf802; font-size: 18px;"></i><b class="dashboard-link">Log
@@ -133,51 +236,51 @@
                     <hr>
                     <!---tab button start here---->
                     <div uk-grid class="uk-text-center uk-padding">
-                            <div class=" uk-width-1-4">
-                                <button class="uk-button uk-button-small tab-button formatForButton  uk-padding-small "
-                                    id="all_ads" onclick="tabButton()">All <b class="uk-visible@s">(20)</b> </button>
-                            </div>
-                            <div class=" uk-width-1-4">
-                                <button class="uk-button uk-button-small tab-button formatForButton  uk-padding-small "
-                                style="background-color: #adf802" id="all_ads" onclick="tabButton()">pending <b class="uk-visible@s">(20)</b> </button>
-                            </div>
-                            <div class=" uk-width-1-4">
-                                <button class="uk-button uk-button-small tab-button formatForButton  uk-padding-small "
-                                    id="all_ads" onclick="tabButton()">Active <b class="uk-visible@s">(20)</b> </button>
-                            </div>
-                            <div class=" uk-width-1-4">
-                                <button class="uk-button uk-button-small tab-button formatForButton  uk-padding-small "
-                                    id="all_ads" onclick="tabButton()">Expired <b class="uk-visible@s">(20)</b> </button>
-                            </div>
+                        <div class=" uk-width-1-4">
+                            <button class="uk-button uk-button-small tab-button formatForButton  uk-padding-small "
+                                id="all_ads" onclick="tabButton()">All <b class="uk-visible@s">(20)</b> </button>
                         </div>
-                        <div class="uk-visible@s my-line">
-                            <hr>
+                        <div class=" uk-width-1-4">
+                            <button class="uk-button uk-button-small tab-button formatForButton  uk-padding-small "
+                                id="all_ads" onclick="tabButton()">pending <b class="uk-visible@s">(20)</b> </button>
                         </div>
-                        <div uk-grid class="uk-text-center uk-padding">
-                            <div class=" uk-width-1-4">
-                                <button class="uk-button uk-button-small tab-button formatForButton  uk-padding-small "
-                                    id="all_ads" onclick="tabButton()">Featuerd <b class="uk-visible@s">(20)</b> </button>
-                            </div>
-                            <div class=" uk-width-1-4">
-                                <button class="uk-button uk-button-small tab-button formatForButton  uk-padding-small "
-                                style="background-color: #adf802"  id="all_ads" onclick="tabButton()">Distress <b class="uk-visible@s">(20)</b> </button>
-                            </div>
-                            <div class=" uk-width-1-4">
-                                <button class="uk-button uk-button-small tab-button formatForButton  uk-padding-small "
-                                    id="all_ads" onclick="tabButton()">Free <b class="uk-visible@s">(20)</b> </button>
-                            </div>
-                            <div class=" uk-width-1-4">
-                                <button class="uk-button uk-button-small tab-button formatForButton  uk-padding-small  "
-                                    id="all_ads" onclick="tabButton()">All <b class="uk-visible@s">(20)</b> </button>
-                            </div>
-    
+                        <div class=" uk-width-1-4">
+                            <button class="uk-button uk-button-small tab-button formatForButton  uk-padding-small "
+                                id="all_ads" onclick="tabButton()">Active <b class="uk-visible@s">(20)</b> </button>
                         </div>
-    
-                        <div class="uk-visible@s my-line">
-                            <hr>
+                        <div class=" uk-width-1-4">
+                            <button class="uk-button uk-button-small tab-button formatForButton  uk-padding-small "
+                                id="all_ads" onclick="tabButton()">Expired <b class="uk-visible@s">(20)</b> </button>
                         </div>
-    
-                        <!---tab button end here---->
+                    </div>
+                    <div class="uk-visible@s my-line">
+                        <hr>
+                    </div>
+                    <div uk-grid class="uk-text-center uk-padding">
+                        <div class=" uk-width-1-4">
+                            <button class="uk-button uk-button-small tab-button formatForButton  uk-padding-small "
+                                id="all_ads" onclick="tabButton()">Featuerd <b class="uk-visible@s">(20)</b> </button>
+                        </div>
+                        <div class=" uk-width-1-4">
+                            <button class="uk-button uk-button-small tab-button formatForButton  uk-padding-small "
+                                id="all_ads" onclick="tabButton()">Distress <b class="uk-visible@s">(20)</b> </button>
+                        </div>
+                        <div class=" uk-width-1-4">
+                            <button class="uk-button uk-button-small tab-button formatForButton  uk-padding-small "
+                                id="all_ads" onclick="tabButton()">Free <b class="uk-visible@s">(20)</b> </button>
+                        </div>
+                        <div class=" uk-width-1-4">
+                            <button class="uk-button uk-button-small tab-button formatForButton  uk-padding-small  "
+                                id="all_ads" onclick="tabButton()">All <b class="uk-visible@s">(20)</b> </button>
+                        </div>
+
+                    </div>
+
+                    <div class="uk-visible@s my-line">
+                        <hr>
+                    </div>
+
+                    <!---tab button end here---->
                     <!-----table start here-------->
 
                     <table class="uk-table uk-table-hover uk-table-responsive uk-table-divider">
@@ -218,105 +321,105 @@
                                 <td>$ 53</td>
                                 <td>published</td>
                                 <td>
-                                    <div >
-                                       
-                                            <div class="uk-button uk-button-small " uk-tooltip="Edit"
-                                                style="background: #adf802"><i class="mdi  mdi-lead-pencil"
-                                                    style="color:white; font-size: 20px;"></i></div>
-                                       
-                                            <div class="uk-button uk-button-small" uk-tooltip="Delete"
-                                                style="background: red"><i class="mdi  mdi-delete-circle"
-                                                    style="color:white; font-size: 20px;"></i></div>
-                                       
-                                            <div class="uk-button uk-button-small" uk-tooltip="View"
-                                                style="background:#87ceeb"><i class="mdi  mdi-eye"
-                                                    style="color:white; font-size: 20px;"></i></div>
-                                        </div>
+                                    <div>
 
+                                        <div class="uk-button uk-button-small " uk-tooltip="Edit"
+                                            style="background: #adf802"><i class="mdi  mdi-lead-pencil"
+                                                style="color:white; font-size: 20px;"></i></div>
+
+                                        <div class="uk-button uk-button-small" uk-tooltip="Delete"
+                                            style="background: red"><i class="mdi  mdi-delete-circle"
+                                                style="color:white; font-size: 20px;"></i></div>
+
+                                        <div class="uk-button uk-button-small" uk-tooltip="View"
+                                            style="background:#87ceeb"><i class="mdi  mdi-eye"
+                                                style="color:white; font-size: 20px;"></i></div>
                                     </div>
-                                </td>
 
-                            </tr>
-                            <tr>
-                                <td colspan="5" class="uk-text-center">No Data Yet</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <hr>
-                    <ul class="uk-pagination uk-flex-center uk-padding-small" uk-margin>
-                        <li><a href="#"><span uk-pagination-previous></span></a></li>
-                        <li><a href="#">1</a></li>
-                        <li class="uk-disabled"><span>...</span></li>
-                        <li><a href="#">5</a></li>
-                        <li><a href="#">6</a></li>
-                        <li class="uk-active"><span>7</span></li>
-                        <li><a href="#">8</a></li>
-                        <li><a href="#"><span uk-pagination-next></span></a></li>
-                    </ul>
-                    <!----table end here----------->
                 </div>
-            </div>
-            <!-----my ads start here----->
+                </td>
 
-            <div uk-grid>
-                <!------safety tips start here---->
-                <div class="uk-width-1-2@m uk-width-1-1@s dashboard-main2">
-                    <div class="uk-container uk-padding-remove uk-margin my-container">
-                        <div
-                            class="uk-card uk-card-default uk-card-body uk-padding-remove uk-margin-small uk-border-rounded">
-                            <h5 class="uk-padding-small"><b style="color: #87ceeb">Search Ads</b></h5>
-                            <hr>
-                            <form class="uk-grid-small uk-padding-small" uk-grid>
-                                <div class="uk-width-1-1@s">
-
-                                    <input class="uk-input" type="text" placeholder="What are you looking for?"
-                                        id="firstname" name="firstname" autofocus>
-                                </div>
-                                <div class="uk-width-1-1@s">
-                                    <div class="uk-margin">
-                                        <select class="uk-select">
-                                            <option>Option 01</option>
-                                            <option>Option 02</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="">
-                                    <div class="uk-button"
-                                        style="background-color: #87ceeb; color:white;  text-transform: capitalize;">
-                                        Search</div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <!------safety tips end here---->
-
-                <!------safety tips start here---->
-                <div class="uk-width-1-2@m uk-width-1-1@s dashboard-main2 my-margin">
-                    <div class="uk-container uk-padding-remove uk-margin my-container">
-                        <div
-                            class="uk-card uk-card-default uk-card-body uk-padding-small uk-margin-small uk-border-rounded">
-                            <h5 class=""><b style="color: #87ceeb">Safety Tips</b></h5>
-                            <hr>
-                            <ul class=" uk-padding-remove uk-margin-remove">
-                                <li class=" dashboard-tips"><i class="mdi  mdi-arrow-right-bold-circle"
-                                        style="color:#adf802; font-size: 18px;"></i><b class="dashboard-tips">
-                                        Meet Saller at Public Place</b></li>
-                                <li class=" dashboard-tips"><i class="mdi  mdi-arrow-right-bold-circle"
-                                        style="color:#adf802; font-size: 18px;"></i><b class="dashboard-tips">
-                                        Check Property brfor you buy</b></li>
-                                <li class=" dashboard-tips"><i class="mdi  mdi-arrow-right-bold-circle"
-                                        style="color:#adf802; font-size: 18px;"></i><b class="dashboard-tips">
-                                        Pay only when given Property document</b></li>
-                                <li class=" dashboard-tips uk-margin-small"><a href="" class="dashboard-tips ">
-                                        <b> view more...</b></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!------safety tips end here---->
+                </tr>
+                <tr>
+                    <td colspan="5" class="uk-text-center">No Data Yet</td>
+                </tr>
+                </tbody>
+                </table>
+                <hr>
+                <ul class="uk-pagination uk-flex-center uk-padding-small" uk-margin>
+                    <li><a href="#"><span uk-pagination-previous></span></a></li>
+                    <li><a href="#">1</a></li>
+                    <li class="uk-disabled"><span>...</span></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">6</a></li>
+                    <li class="uk-active"><span>7</span></li>
+                    <li><a href="#">8</a></li>
+                    <li><a href="#"><span uk-pagination-next></span></a></li>
+                </ul>
+                <!----table end here----------->
             </div>
         </div>
+        <!-----my ads start here----->
+
+        <div uk-grid>
+            <!------safety tips start here---->
+            <div class="uk-width-1-2@m uk-width-1-1@s dashboard-main2">
+                <div class="uk-container uk-padding-remove uk-margin my-container">
+                    <div
+                        class="uk-card uk-card-default uk-card-body uk-padding-remove uk-margin-small uk-border-rounded">
+                        <h5 class="uk-padding-small"><b style="color: #87ceeb">Search Ads</b></h5>
+                        <hr>
+                        <form class="uk-grid-small uk-padding-small" uk-grid>
+                            <div class="uk-width-1-1@s">
+
+                                <input class="uk-input" type="text" placeholder="What are you looking for?"
+                                    id="firstname" name="firstname" autofocus>
+                            </div>
+                            <div class="uk-width-1-1@s">
+                                <div class="uk-margin">
+                                    <select class="uk-select">
+                                        <option>Option 01</option>
+                                        <option>Option 02</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="uk-button"
+                                    style="background-color: #87ceeb; color:white;  text-transform: capitalize;">
+                                    Search</div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!------safety tips end here---->
+
+            <!------safety tips start here---->
+            <div class="uk-width-1-2@m uk-width-1-1@s dashboard-main2 my-margin">
+                <div class="uk-container uk-padding-remove uk-margin my-container">
+                    <div
+                        class="uk-card uk-card-default uk-card-body uk-padding-small uk-margin-small uk-border-rounded">
+                        <h5 class=""><b style="color: #87ceeb">Safety Tips</b></h5>
+                        <hr>
+                        <ul class=" uk-padding-remove uk-margin-remove">
+                            <li class=" dashboard-tips"><i class="mdi  mdi-arrow-right-bold-circle"
+                                    style="color:#adf802; font-size: 18px;"></i><b class="dashboard-tips">
+                                    Meet Saller at Public Place</b></li>
+                            <li class=" dashboard-tips"><i class="mdi  mdi-arrow-right-bold-circle"
+                                    style="color:#adf802; font-size: 18px;"></i><b class="dashboard-tips">
+                                    Check Property brfor you buy</b></li>
+                            <li class=" dashboard-tips"><i class="mdi  mdi-arrow-right-bold-circle"
+                                    style="color:#adf802; font-size: 18px;"></i><b class="dashboard-tips">
+                                    Pay only when given Property document</b></li>
+                            <li class=" dashboard-tips uk-margin-small"><a href="" class="dashboard-tips ">
+                                    <b> view more...</b></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!------safety tips end here---->
+        </div>
+    </div>
 
 
     </div>
