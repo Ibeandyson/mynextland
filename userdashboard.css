@@ -1,4 +1,4 @@
-body {
+html{
 	background-color: whitesmoke;
 }
 ul {
@@ -27,13 +27,17 @@ a:active {
 .dashboard-link {
 	padding-left: 20px;
 }
-.dashboard-main {
+.dashboard-main{
 	width: 70%;
 	margin-top: 8%;
 }
 .dashboard-main2 {
 	width: 50%;
 }
+.ads-listing {
+	width: 33.20%;
+}
+
 .my-line{
 	margin-top: -75px;
 }
@@ -50,19 +54,30 @@ a:active {
 .my-button-padding{
 	padding:2px;
 }
-/* .formatForButton{
-    background-color:#adf802; 
-} */
+
 span{
     display:none;
+}
+.view-ad-page{
+	max-width: 850px;
+	margin: auto;
+	margin-top:10%;
+}
+.view-ad-page-descripton{
+	max-width: 850px;
+	margin: auto;
+	margin-top:2%;
 }
 
 @media (max-width: 740px) {
 	.dashboard-main {
 		width: 100%;
-		margin-top: 25%;
+		margin-top: 5%;
 	}
 	.dashboard-main2 {
+		width: 100%;
+	}
+	.ads-listing {
 		width: 100%;
 	}
 	.my-margin {

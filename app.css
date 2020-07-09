@@ -4,7 +4,7 @@
 		}  	
 }
 html {
-	background-color: white;
+	background-color: whitesmoke;
 }
 .navigation {
 	background-color: black !important;
@@ -79,8 +79,6 @@ margin: -20px
 .city-text-s{
 	font-size: 0.7em
 }
-
-
 
 .footer {
 	background-color:none;
