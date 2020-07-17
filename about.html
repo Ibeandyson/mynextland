@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" style="background: white">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About page</title>
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.0.45/css/materialdesignicons.min.css" />
+</head>
+
+<body>
+    <!----offcanvas start here---->
+    <div id="offcanvas-push" uk-offcanvas="mode: push; overlay: true">
+        <div class="uk-offcanvas-bar sidenav ">
+
+            <ul class="uk-nav uk-nav-default">
+                <div class="uk-padding-small">
+                    <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                            style="background-color:black;  color:white;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%"><b>HOME</b></button></a>
+                </div>
+            </ul>
+            <ul class="uk-nav uk-nav-default">
+                <div class="uk-padding-small">
+                    <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                            style="background-color:black;  color:white;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%"><b>PRICING</b></button></a>
+                </div>
+            </ul>
+            <ul class="uk-nav uk-nav-default">
+                <div class="uk-padding-small">
+                    <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                            style="background-color:black;   color:white;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%"><b>ABOUT
+                                US
+                            </b></button></a>
+                </div>
+            </ul>
+
+            <ul class="uk-nav uk-nav-default">
+                <div class="uk-padding-small">
+                    <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                            style="background-color:black; color:white;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%"><b>CONTACT
+                                US</b></button></a>
+                </div>
+            </ul>
+
+            <ul class="uk-nav uk-nav-default">
+                <div class="uk-padding-small">
+                    <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                            style="background-color:black;color:white;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%"><b>BLOG</b></button></a>
+                </div>
+            </ul>
+            <ul class="uk-nav uk-nav-default">
+                <div class="uk-padding-small">
+                    <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                            style="background-color:white;color:black;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%"><b>SIGN
+                                IN</b></button></a>
+                </div>
+            </ul>
+            <ul class="uk-nav uk-nav-default">
+                <div class="uk-padding-small">
+                    <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                            style="background-color:red; color:white;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%"><b>SIGN
+                                UP</b></button></a>
+                </div>
+            </ul>
+
+        </div>
+    </div>
+    <!----offcanvas ended here---->
+
+    <!----navbar start here ---->
+    <nav class="uk-navbar-container  navigation uk-fixed-navigation uk-visible@s" uk-navbar>
+        <div class="uk-navbar-let">
+            <a class="uk-navbar-item uk-logo" href="#"><img src="images/logo.png" style="height: 100px; "></a>
+        </div>
+
+        <div class="uk-navbar-left uk-visible@s">
+            <ul class="uk-navbar-nav">
+
+            </ul>
+        </div>
+
+        <div class="uk-navbar-right uk-visible@s">
+            <ul class="uk-navbar-nav">
+                <li>
+                    <button class="uk-button btn-bg-none" style="color:white;  font-weight: bold;">Home</button>
+                </li>
+                <li>
+                    <button class="uk-button btn-bg-none" style="color:white;  font-weight: bold;">Pricing</button>
+                </li>
+                <li>
+                    <button class="uk-button btn-bg-none" style="color:white;  font-weight: bold;">About US</button>
+                </li>
+                <li>
+                    <button class="uk-button btn-bg-none" style="color:white;  font-weight: bold;">Contact Us</button>
+                </li>
+                <li>
+                    <button class="uk-button btn-bg-none" style="color:white;  font-weight: bold;">Blog</button>
+                </li>
+                <li>
+                    <button class="uk-button btn-nav-login"> <i class="mdi  mdi-login"
+                            style="color:red; margin-right: 10px; font-size: 20px;"></i>sign in</button>
+                </li>
+                <li>
+                    <button class="uk-button btn-nav-register"><i class="mdi  mdi-account-plus"
+                            style="color:white; margin-right: 10px; font-size: 20px;"></i>sign up</button>
+                </li>
+            </ul>
+        </div>
+        <div class="uk-navbar-right uk-visible@s">
+            <ul class="uk-navbar-nav">
+
+            </ul>
+        </div>
+
+    </nav>
+    <!----navbar ends here ---->
+
+    <!----navbar for mobile start here ---->
+    <nav class="uk-navbar-container   navigation-small uk-hidden@s" uk-navbar>
+        <div class="uk-navbar-let">
+            <a class="uk-navbar-item uk-logo" href="#"><img src="images/logo.png" style="height: 100px; "></a>
+        </div>
+
+        <div class="uk-navbar-right ">
+            <ul class="uk-navbar-nav">
+                <li>
+                    <div class="uk-navbar-toggle " uk-toggle="target: #offcanvas-push">
+                        <i class="mdi  mdi-backburger"
+                            style="color:white; font-size: 30px;position: fixed;background-color: black;  z-index: 1; padding-right: 20px"></i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!----navbar for mobile ends here ---->
+    <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light"
+        data-src="images/about.jpg" data-srcset="images/about.jpg" data-sizes="(min-width: 650px) 650px, 100vw" uk-img>
+        <h1 style="padding-top: 10%"><b>ABOUT</b></h1>
+    </div>
+    <div class="uk-container">
+        <h1 style="color:#adf802; margin-top: 20px"><b>Mynextland</b></h1>
+        <div class="content">
+            <h4><b>Why Mynextland?</b></h4>
+            <p style="text-align: justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, minus culpa. Est dolorem amet odio
+                dolores? Id veritatis a voluptatibus itaque eaque eligendi accusamus exercitationem, aut ipsam fuga
+                magni et quidem nemo esse corrupti! Repellat reiciendis, molestias distinctio assumenda vel quo neque
+                beatae facilis sit odio velit in minima aut odit amet saepe illo autem. Reprehenderit minus sequi,
+                debitis quibusdam autem molestiae accusamus deserunt, vero explicabo aperiam perspiciatis adipisci
+                beatae temporibus est nihil voluptatem mollitia quis neque ea consectetur harum sint. Numquam facilis
+                voluptates eius eum labore ullam voluptas delectus dolorem odio, odit voluptatibus ipsa qui, harum fuga
+                necessitatibus natus beatae doloremque. Qui ullam tempore ducimus ex explicabo magni voluptas, voluptate
+                aspernatur eaque quis, doloribus repellat dignissimos eum ipsa quae beatae? Sapiente sed id tenetur at
+                voluptatum modi consequuntur consequatur beatae repudiandae aperiam hic repellendus quae reiciendis,
+                eum, quidem quibusdam tempore quis? Nam voluptate eaque, consequatur quia delectus nemo esse quaerat
+                voluptas, corrupti, perspiciatis iusto deleniti alias expedita similique accusamus ipsum temporibus
+              
+               .</p>
+      
+        
+        <h4><b>How It Works?</b></h4>
+       
+       <div uk-grid class="uk-text-center">
+            <div class="uk-width-1-3">
+                    <i class="mdi  mdi-shield-account" style="color:#adf802; font-size: 100px;"></i>
+                    <p style="margin-top: -20px"><b>Create Account</b></p>
+               </div>
+           <div class="uk-width-1-3">
+                <i class="mdi  mdi-telegram" style="color:#adf802; font-size: 100px;"></i>
+                <p style="margin-top: -20px"><b>Post Ads</b></p>
+           </div>
+           <div class="uk-width-1-3">
+                <i class="mdi  mdi-bullhorn" style="color:#adf802; font-size: 100px;"></i>
+                <p style="margin-top: -20px"><b>Contact</b></p>
+           </div>
+       </div>
+
+        </div>
+    </div>
+
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+</body>
+
+</html>
