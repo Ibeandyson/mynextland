@@ -63,7 +63,9 @@ html {
 }
 .my-card {
 	border-radius: 20px;
+	
 }
+
 .my-card-blog {
 	border-radius: 0px 20px 20px 0px;
 }
@@ -73,6 +75,10 @@ html {
 }
 .city-text-s {
 	font-size: 0.7em;
+}
+.top-p-image{
+	height: 30vh;
+	width: 100vw
 }
 
 .my-footer {

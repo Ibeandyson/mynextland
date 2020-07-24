@@ -13,7 +13,7 @@ a:visited {
 	background-color: whitesmoke;
 }
 a:active {
-	color: blue;
+	color: red;
 	background-color: whitesmoke;
 }
 .dashboard-nav {
@@ -59,14 +59,18 @@ span{
     display:none;
 }
 .view-ad-page{
-	max-width: 850px;
-	margin: auto;
-	margin-top:10%;
+
+	margin-top:10%
 }
-.view-ad-page-descripton{
-	max-width: 850px;
-	margin: auto;
-	margin-top:2%;
+.view-ad-page-discription{
+	margin-top:2%
+}
+.view-ad-page-contact{
+	margin-top:10%	
+}
+.view-ad-image{
+	height: 50vh;
+	width: 100vw
 }
 
 @media (max-width: 740px) {
