@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>login page</title>
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.0.45/css/materialdesignicons.min.css" />
+</head>
+
+<body>
+    <!----offcanvas start here---->
+    <div id="offcanvas-push" uk-offcanvas="mode: push; overlay: true">
+        <div class="uk-offcanvas-bar sidenav ">
+
+            <ul class="uk-nav uk-nav-default">
+                <div class="uk-padding-small">
+                    <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                            style="background-color:black;  color:white;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%"><b>HOME</b></button></a>
+                </div>
+            </ul>
+            <ul class="uk-nav uk-nav-default">
+                <div class="uk-padding-small">
+                    <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                            style="background-color:black;  color:white;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%"><b>PRICING</b></button></a>
+                </div>
+            </ul>
+            <ul class="uk-nav uk-nav-default">
+                <div class="uk-padding-small">
+                    <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                            style="background-color:black;   color:white;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%"><b>ABOUT
+                                US
+                            </b></button></a>
+                </div>
+            </ul>
+
+            <ul class="uk-nav uk-nav-default">
+                <div class="uk-padding-small">
+                    <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                            style="background-color:black; color:white;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%"><b>CONTACT
+                                US</b></button></a>
+                </div>
+            </ul>
+
+            <ul class="uk-nav uk-nav-default">
+                <div class="uk-padding-small">
+                    <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                            style="background-color:black;color:white;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%"><b>BLOG</b></button></a>
+                </div>
+            </ul>
+            <ul class="uk-nav uk-nav-default">
+                <div class="uk-padding-small">
+                    <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                            style="background-color:white;color:black;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%"><b>SIGN
+                                IN</b></button></a>
+                </div>
+            </ul>
+            <ul class="uk-nav uk-nav-default">
+                <div class="uk-padding-small">
+                    <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                            style="background-color:red; color:white;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%"><b>SIGN
+                                UP</b></button></a>
+                </div>
+            </ul>
+
+        </div>
+    </div>
+    <!----offcanvas ended here---->
+
+    <!----navbar start here ---->
+    <nav class="uk-navbar-container  navigation uk-fixed-navigation uk-visible@s" uk-navbar>
+        <div class="uk-navbar-let">
+            <a class="uk-navbar-item uk-logo" href="#"><img src="images/logo.png" style="height: 100px; "></a>
+        </div>
+
+        <div class="uk-navbar-left uk-visible@s">
+            <ul class="uk-navbar-nav">
+
+            </ul>
+        </div>
+
+        <div class="uk-navbar-right uk-visible@s">
+            <ul class="uk-navbar-nav">
+                <li>
+                    <button class="uk-button btn-bg-none" style="color:white;  font-weight: bold;">Home</button>
+                </li>
+                <li>
+                    <button class="uk-button btn-bg-none" style="color:white;  font-weight: bold;">Pricing</button>
+                </li>
+                <li>
+                    <button class="uk-button btn-bg-none" style="color:white;  font-weight: bold;">About US</button>
+                </li>
+                <li>
+                    <button class="uk-button btn-bg-none" style="color:white;  font-weight: bold;">Contact Us</button>
+                </li>
+                <li>
+                    <button class="uk-button btn-bg-none" style="color:white;  font-weight: bold;">Blog</button>
+                </li>
+                <li>
+                    <button class="uk-button btn-nav-login"> <i class="mdi  mdi-login"
+                            style="color:red; margin-right: 10px; font-size: 20px;"></i>sign in</button>
+                </li>
+                <li>
+                    <button class="uk-button btn-nav-register"><i class="mdi  mdi-account-plus"
+                            style="color:white; margin-right: 10px; font-size: 20px;"></i>sign up</button>
+                </li>
+            </ul>
+        </div>
+        <div class="uk-navbar-right uk-visible@s">
+            <ul class="uk-navbar-nav">
+
+            </ul>
+        </div>
+
+    </nav>
+    <!----navbar ends here ---->
+
+    <!----navbar for mobile start here ---->
+    <nav class="uk-navbar-container   navigation-small uk-hidden@s" uk-navbar>
+        <div class="uk-navbar-let">
+            <a class="uk-navbar-item uk-logo" href="#"><img src="images/logo.png" style="height: 100px; "></a>
+        </div>
+
+        <div class="uk-navbar-right ">
+            <ul class="uk-navbar-nav">
+                <li>
+                    <div class="uk-navbar-toggle " uk-toggle="target: #offcanvas-push">
+                        <i class="mdi  mdi-backburger"
+                            style="color:white; font-size: 30px;position: fixed;background-color: black;  z-index: 1; padding-right: 20px"></i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!----navbar for mobile ends here ---->
+
+
+
+    <!--=============================-->
+    <div class="uk-container uk-padding-small content2">
+        <div uk-grid>
+            <div class="uk-width-1-1 ">
+                <div class="uk-card uk-card-default uk-card-body my-card my-card-login">
+                    <form class="uk-grid-small" uk-grid>
+
+                        <div class="uk-width-1-2@m uk-width-1-1@s">
+                            <label class="uk-form-label form-lable" for="form-stacked-text">First Name</label>
+                            <input placeholder="enter first name" class="uk-input  uk-form-width-large" type="text"
+                                id="first_name" name="first_name" autofocus>
+                        </div>
+                        <div class="uk-width-1-2@m uk-width-1-1@s">
+                            <label class="uk-form-label form-lable" for="form-stacked-text">Last Name</label>
+                            <input placeholder="enter last name" class="uk-input  uk-form-width-large" type="text"
+                                id="last_name" name="last_name">
+                        </div>
+                        <div class="uk-width-1-2@m uk-width-1-1@s">
+                            <label class="uk-form-label form-lable" for="form-stacked-text">User Name</label>
+                            <input placeholder="enter user name" class="uk-input  uk-form-width-large" type="text"
+                                id="username" name="username">
+                        </div>
+                        <div class="uk-width-1-2@m uk-width-1-1@s">
+                            <label class="uk-form-label form-lable" for="form-stacked-text">E-mail Address</label>
+                            <input placeholder="enter email" class="uk-input  uk-form-width-large" type="email"
+                                id="email" name="email">
+                        </div>
+                        <div class="uk-width-1-2@m uk-width-1-1@s">
+                            <label class="uk-form-label form-lable" for="form-stacked-text">Phone </label>
+                            <input placeholder="enter Phone number" class="uk-input  uk-form-width-large" type="number"
+                                id="phone" name="phone">
+                        </div>
+                        <div class="uk-width-1-2@m uk-width-1-1@s">
+                            <label class="uk-form-label form-lable" for="form-stacked-text">E-mail Address</label>
+                            <input placeholder="enter email" class="uk-input  uk-form-width-large" type="password"
+                                id="passwprd" name="password">
+                        </div>
+
+
+
+
+                        <div class="uk-animation-toggle uk-width-1-1" tabindex="0">
+                            <a href="#"> <button class=" uk-animation-shake uk-button uk-button-small"
+                                    style="background-color:#87ceeb; 
+                                                color:white;max-height: 50px !important; min-height: 50px !important; height:50px;  width: 100%">
+                                    <b>Sign Up</b></button></a>
+                        </div>
+                        
+                </div>
+               
+              
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!--=============================-->
+
+    <!--------footer start here-------->
+    <footer class="my-footer">
+        <div class="uk-container">
+            <div uk-grid>
+                <div class="uk-width-1-4@s width-1-1">
+                    <img src="images/logo.png" style="height: 100px; ">
+                    <p class="my-footer-text">
+                        <b>
+                            86 Petersham town, New South wales
+                            Waedll Steet, Australia PA 6550
+                        </b>
+                    </p>
+                    <li class="my-footer-text" style="color: #adf802"><span uk-icon="receiver"></span> +61 525 240 310
+                    </li>
+                    <li class="my-footer-text" style="color: #adf802"><span uk-icon="mail"></span> yoursite@gmail.com
+                    </li>
+                </div>
+
+                <div class="uk-width-1-6@s width-1-1">
+                    <p class="my-footer-content"><b>OUR PROPERTIES</b></p>
+                    <li><a href="#">For Rent</a></li>
+                    <li><a href="#">For Sale</a></li>
+                </div>
+                <div class="uk-width-1-6@s width-1-1">
+                    <p class="my-footer-content"><b>INFORMATION</b></p>
+                    <li><a href="#">Trems & Condition</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                </div>
+                <div class="uk-width-1-6@s width-1-1">
+                    <p class="my-footer-content"><b>About</b></p>
+                    <li><a href="#">Company Information</a></li>
+                    <li><a href="#">Careers</a></li>
+                </div>
+                <div class="uk-width-1-5@s width-1-1">
+                    <form>
+                        <p class="my-footer-content"><b>NEWSLETTER</b></p>
+                        <div class="uk-margin-top ">
+                            <div class="uk-inline">
+                                <button style="background-color:red;   ; border: none; "
+                                    class="uk-form-icon uk-form-icon-flip remove-highlight" type="button"><i
+                                        class="mdi  mdi-telegram" style="color:white; font-size: 30px;"></i></button>
+                                <input class="uk-input" type="email" placeholder="Email Address">
+                            </div>
+                        </div>
+                        <li style="color: white; font-size:0.8em"> Get recent updates from us...</li>
+                        <p>
+                            <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"
+                                style="color: white; background-color: #87ceeb"></a>
+                            <a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook"
+                                style="color: white; background-color: blue"></a>
+                            <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="whatsapp"
+                                style="color: white; background-color:#adf802"></a>
+                            <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="instagram"
+                                style="color: white; background-color:pink"></a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="uk-text-center" style="color: white;">
+            <p style="font-size:0.8em; opacity: 0.8;">© Copyright 2020 mynextland. All Rights Reserved</p>
+            <p style="font-size:0.7em;opacity: 0.5;  margin-bottom:0%">All Photos On This Site Are From Properties
+                Owners</p>
+        </div>
+
+        </div>
+    </footer>
+    <!--------footer start end--------->
+
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+</body>
+
+</html>

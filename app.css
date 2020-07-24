@@ -110,11 +110,26 @@ a {
 	max-width: 700px;
 	margin:auto
 }
+.content1 {
+	max-width: 500px;
+	margin: auto;
+}
+.content2 {
+	max-width: 700px;
+	margin: auto;
+}
+.my-card-login{
+	margin-top: 20%;
+}
 
 @media (max-width: 740px) {
 	.my-slide {
 		padding-top: none;
 	}
+	.my-card-login{
+		margin-top: 5%;
+	}
+	
 	.my-footer-content {
 		color: #87ceeb;
 		padding-top: 1px;
