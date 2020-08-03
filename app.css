@@ -17,21 +17,47 @@ html {
 	padding-top: 0px;
 }
 .btn-nav-login {
-	background: white !important;
-	color: black;
+	background:white !important;
+	color:black;
 	text-decoration-style: solid;
 	border-radius: 50px;
 	margin-right: 10px;
 }
-.btn-nav-login:hover {
-	background-color: yellow;
+.btn-nav-login-1 {
+	background:red !important;
+	color:white;
+	text-decoration-style: solid;
+	border-radius: 50px;
+	margin-bottom: 10px;
 }
 .btn-nav-register {
-	background: red !important;
+	background:green !important;
 	color: white;
 	text-decoration-style: solid;
 	border-radius: 50px;
+	margin-right: 10px;
 }
+.btn-nav-register-1 {
+	background:black !important;
+	color: white;
+	text-decoration-style: solid;
+	border-radius: 50px;
+	margin-right: 10px;
+}
+
+.nav-link>a:hover{
+	color: white;
+}
+.nav-link{
+	color:white
+}
+.nav-link>a:link {
+	text-decoration: none;
+}
+.drop-nav{
+	background-color:whitesmoke;
+}
+
 .btn-bg-none {
 	background: none !important;
 	color: white;
@@ -74,7 +100,8 @@ html {
 	padding-bottom: 50px;
 }
 .city-text-s {
-	font-size: 0.7em;
+	font-size: 1.5em;
+	
 }
 .top-p-image{
 	height: 30vh;
@@ -82,7 +109,7 @@ html {
 }
 
 .my-footer {
-	background-color: black;
+	background-color:rgb(31, 29, 29);
 
 }
 .my-footer-text {
