@@ -162,3 +162,11 @@ a {
 		padding-top: 1px;
 	}
 }
+/* =====get alert style === */
+
+.content-property-alert{
+	max-width: 1000px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px
+}
